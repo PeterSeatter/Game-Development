@@ -1,0 +1,7 @@
+c:\users\92060001\documents\visual studio 2012\Projects\MultipleChoice\MultipleChoice\bin\Debug\MultipleChoice.exe.config
+C:\Users\92060001\Documents\Game Development\C# Basics\MultipleChoice\MultipleChoice\bin\Debug\MultipleChoice.exe.config
+C:\Users\92060001\Documents\Game Development\C# Basics\MultipleChoice\MultipleChoice\bin\Debug\MultipleChoice.exe
+C:\Users\92060001\Documents\Game Development\C# Basics\MultipleChoice\MultipleChoice\bin\Debug\MultipleChoice.pdb
+C:\Users\92060001\Documents\Game Development\C# Basics\MultipleChoice\MultipleChoice\obj\Debug\MultipleChoice.csprojResolveAssemblyReference.cache
+C:\Users\92060001\Documents\Game Development\C# Basics\MultipleChoice\MultipleChoice\obj\Debug\MultipleChoice.exe
+C:\Users\92060001\Documents\Game Development\C# Basics\MultipleChoice\MultipleChoice\obj\Debug\MultipleChoice.pdb

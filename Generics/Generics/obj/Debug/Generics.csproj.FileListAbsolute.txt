@@ -1,0 +1,6 @@
+C:\Users\92060001\Documents\Game Development\C# Basics\Generics\Generics\bin\Debug\Generics.exe.config
+C:\Users\92060001\Documents\Game Development\C# Basics\Generics\Generics\bin\Debug\Generics.exe
+C:\Users\92060001\Documents\Game Development\C# Basics\Generics\Generics\bin\Debug\Generics.pdb
+C:\Users\92060001\Documents\Game Development\C# Basics\Generics\Generics\obj\Debug\Generics.csprojResolveAssemblyReference.cache
+C:\Users\92060001\Documents\Game Development\C# Basics\Generics\Generics\obj\Debug\Generics.exe
+C:\Users\92060001\Documents\Game Development\C# Basics\Generics\Generics\obj\Debug\Generics.pdb

@@ -1,0 +1,6 @@
+C:\Users\92060001\Documents\Game Development\C# Basics\RocketShip\RocketShip\bin\Debug\RocketShip.exe.config
+C:\Users\92060001\Documents\Game Development\C# Basics\RocketShip\RocketShip\bin\Debug\RocketShip.exe
+C:\Users\92060001\Documents\Game Development\C# Basics\RocketShip\RocketShip\bin\Debug\RocketShip.pdb
+C:\Users\92060001\Documents\Game Development\C# Basics\RocketShip\RocketShip\obj\Debug\RocketShip.exe
+C:\Users\92060001\Documents\Game Development\C# Basics\RocketShip\RocketShip\obj\Debug\RocketShip.pdb
+C:\Users\92060001\Documents\Game Development\C# Basics\RocketShip\RocketShip\obj\Debug\RocketShip.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+C:\Users\92060001\Documents\Game Development\C# Basics\PlayerHealth\PlayerHealth\bin\Debug\PlayerHealth.exe.config
+C:\Users\92060001\Documents\Game Development\C# Basics\PlayerHealth\PlayerHealth\bin\Debug\PlayerHealth.exe
+C:\Users\92060001\Documents\Game Development\C# Basics\PlayerHealth\PlayerHealth\bin\Debug\PlayerHealth.pdb
+C:\Users\92060001\Documents\Game Development\C# Basics\PlayerHealth\PlayerHealth\obj\Debug\PlayerHealth.csprojResolveAssemblyReference.cache
+C:\Users\92060001\Documents\Game Development\C# Basics\PlayerHealth\PlayerHealth\obj\Debug\PlayerHealth.exe
+C:\Users\92060001\Documents\Game Development\C# Basics\PlayerHealth\PlayerHealth\obj\Debug\PlayerHealth.pdb

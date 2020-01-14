@@ -1,0 +1,6 @@
+C:\Users\92060001\Documents\Game Development\C# Basics\ForLoopCounting\ForLoopCounting\bin\Debug\ForLoopCounting.exe.config
+C:\Users\92060001\Documents\Game Development\C# Basics\ForLoopCounting\ForLoopCounting\bin\Debug\ForLoopCounting.exe
+C:\Users\92060001\Documents\Game Development\C# Basics\ForLoopCounting\ForLoopCounting\bin\Debug\ForLoopCounting.pdb
+C:\Users\92060001\Documents\Game Development\C# Basics\ForLoopCounting\ForLoopCounting\obj\Debug\ForLoopCounting.csprojResolveAssemblyReference.cache
+C:\Users\92060001\Documents\Game Development\C# Basics\ForLoopCounting\ForLoopCounting\obj\Debug\ForLoopCounting.exe
+C:\Users\92060001\Documents\Game Development\C# Basics\ForLoopCounting\ForLoopCounting\obj\Debug\ForLoopCounting.pdb

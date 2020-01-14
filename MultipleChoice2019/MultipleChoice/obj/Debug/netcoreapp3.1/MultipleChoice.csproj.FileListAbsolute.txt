@@ -1,0 +1,11 @@
+E:\Programming\C# Basics\MultipleChoice\MultipleChoice\bin\Debug\netcoreapp3.1\MultipleChoice.exe
+E:\Programming\C# Basics\MultipleChoice\MultipleChoice\bin\Debug\netcoreapp3.1\MultipleChoice.deps.json
+E:\Programming\C# Basics\MultipleChoice\MultipleChoice\bin\Debug\netcoreapp3.1\MultipleChoice.runtimeconfig.json
+E:\Programming\C# Basics\MultipleChoice\MultipleChoice\bin\Debug\netcoreapp3.1\MultipleChoice.runtimeconfig.dev.json
+E:\Programming\C# Basics\MultipleChoice\MultipleChoice\bin\Debug\netcoreapp3.1\MultipleChoice.dll
+E:\Programming\C# Basics\MultipleChoice\MultipleChoice\bin\Debug\netcoreapp3.1\MultipleChoice.pdb
+E:\Programming\C# Basics\MultipleChoice\MultipleChoice\obj\Debug\netcoreapp3.1\MultipleChoice.csprojAssemblyReference.cache
+E:\Programming\C# Basics\MultipleChoice\MultipleChoice\obj\Debug\netcoreapp3.1\MultipleChoice.AssemblyInfoInputs.cache
+E:\Programming\C# Basics\MultipleChoice\MultipleChoice\obj\Debug\netcoreapp3.1\MultipleChoice.AssemblyInfo.cs
+E:\Programming\C# Basics\MultipleChoice\MultipleChoice\obj\Debug\netcoreapp3.1\MultipleChoice.dll
+E:\Programming\C# Basics\MultipleChoice\MultipleChoice\obj\Debug\netcoreapp3.1\MultipleChoice.pdb

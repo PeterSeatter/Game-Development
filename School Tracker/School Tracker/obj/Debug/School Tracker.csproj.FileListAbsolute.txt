@@ -1,0 +1,6 @@
+C:\Users\92060001\Documents\Game Development\C# Basics\School Tracker\School Tracker\bin\Debug\School Tracker.exe.config
+C:\Users\92060001\Documents\Game Development\C# Basics\School Tracker\School Tracker\bin\Debug\School Tracker.exe
+C:\Users\92060001\Documents\Game Development\C# Basics\School Tracker\School Tracker\bin\Debug\School Tracker.pdb
+C:\Users\92060001\Documents\Game Development\C# Basics\School Tracker\School Tracker\obj\Debug\School Tracker.csprojResolveAssemblyReference.cache
+C:\Users\92060001\Documents\Game Development\C# Basics\School Tracker\School Tracker\obj\Debug\School Tracker.exe
+C:\Users\92060001\Documents\Game Development\C# Basics\School Tracker\School Tracker\obj\Debug\School Tracker.pdb

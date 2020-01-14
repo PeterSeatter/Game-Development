@@ -1,0 +1,6 @@
+C:\Users\92060001\Documents\Game Development\C# Basics\Passcode\Passcode\bin\Debug\Passcode.exe.config
+C:\Users\92060001\Documents\Game Development\C# Basics\Passcode\Passcode\bin\Debug\Passcode.exe
+C:\Users\92060001\Documents\Game Development\C# Basics\Passcode\Passcode\bin\Debug\Passcode.pdb
+C:\Users\92060001\Documents\Game Development\C# Basics\Passcode\Passcode\obj\Debug\Passcode.csprojResolveAssemblyReference.cache
+C:\Users\92060001\Documents\Game Development\C# Basics\Passcode\Passcode\obj\Debug\Passcode.exe
+C:\Users\92060001\Documents\Game Development\C# Basics\Passcode\Passcode\obj\Debug\Passcode.pdb

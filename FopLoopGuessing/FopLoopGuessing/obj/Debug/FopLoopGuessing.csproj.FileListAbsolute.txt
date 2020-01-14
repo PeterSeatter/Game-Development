@@ -1,0 +1,6 @@
+C:\Users\92060001\Documents\Game Development\C# Basics\FopLoopGuessing\FopLoopGuessing\bin\Debug\FopLoopGuessing.exe.config
+C:\Users\92060001\Documents\Game Development\C# Basics\FopLoopGuessing\FopLoopGuessing\bin\Debug\FopLoopGuessing.exe
+C:\Users\92060001\Documents\Game Development\C# Basics\FopLoopGuessing\FopLoopGuessing\bin\Debug\FopLoopGuessing.pdb
+C:\Users\92060001\Documents\Game Development\C# Basics\FopLoopGuessing\FopLoopGuessing\obj\Debug\FopLoopGuessing.csprojResolveAssemblyReference.cache
+C:\Users\92060001\Documents\Game Development\C# Basics\FopLoopGuessing\FopLoopGuessing\obj\Debug\FopLoopGuessing.exe
+C:\Users\92060001\Documents\Game Development\C# Basics\FopLoopGuessing\FopLoopGuessing\obj\Debug\FopLoopGuessing.pdb
