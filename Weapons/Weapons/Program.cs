@@ -9,9 +9,9 @@ namespace Weapons
 {
     enum WeaponType
     {
-         Gun,
-         Blade,
-         Magic
+        Gun,
+        Blade,
+        Magic
     }
 
     class Program
@@ -43,12 +43,17 @@ namespace Weapons
                 Console.WriteLine("Name: " + listOfWeapons[2].ItemName + ", Type: " + listOfWeapons[2].WeaponType + ", Damage: " + listOfWeapons[2].DamageDealt);
                 i++;
             }
-            UpgradeAllWeapons();
+
+            //UpgradeAllWeapons();
+            UpgradeAllWeapons(listOfWeapons);
 
         }
 
-        static void UpgradeAllWeapons(Weapon weaponUpgrade)
+        static void UpgradeAllWeapons(List<Weapon> prToUpgrade)
         {
+
+            //static void UpgradeAllWeapons(Weapon weaponUpgrade)
+            //{
             //foreach (Weapon weaponUpgrade in Weapon)
             //{
             //    switch (weaponUpgrade.WeaponType)
@@ -63,19 +68,38 @@ namespace Weapons
             //            weaponUpgrade.DamageDealt += 10;
             //            break;
             //    }
-                switch (weaponUpgrade.WeaponType)
+
+            //}
+
+
+            foreach (Weapon lcWeapon in prToUpgrade)
+            {
+                switch (lcWeapon.WeaponType)
                 {
                     case WeaponType.Gun:
-                        weaponUpgrade.DamageDealt += 12;
+                        lcWeapon.DamageDealt += 12;
                         break;
                     case WeaponType.Magic:
-                        weaponUpgrade.DamageDealt += 5;
+                        lcWeapon.DamageDealt += 5;
                         break;
                     case WeaponType.Blade:
-                        weaponUpgrade.DamageDealt += 10;
+                        lcWeapon.DamageDealt += 10;
                         break;
                 }
             }
+            /*   switch (weaponUpgrade.WeaponType)
+               {
+                   case WeaponType.Gun:
+                       weaponUpgrade.DamageDealt += 12;
+                       break;
+                   case WeaponType.Magic:
+                       weaponUpgrade.DamageDealt += 5;
+                       break;
+                   case WeaponType.Blade:
+                       weaponUpgrade.DamageDealt += 10;
+                       break;
+               }
+           }*/
         }
     }
 }
