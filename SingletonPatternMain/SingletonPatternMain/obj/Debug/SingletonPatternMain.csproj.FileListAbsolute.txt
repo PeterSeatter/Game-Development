@@ -1,0 +1,1 @@
+C:\Users\92060001\Documents\Game Development\C# Basics\SingletonPatternMain\SingletonPatternMain\obj\Debug\SingletonPatternMain.csprojResolveAssemblyReference.cache

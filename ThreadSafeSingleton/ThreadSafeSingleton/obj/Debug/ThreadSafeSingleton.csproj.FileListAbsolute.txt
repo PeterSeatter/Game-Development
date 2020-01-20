@@ -1,0 +1,6 @@
+C:\Users\92060001\Documents\Game Development\C# Basics\ThreadSafeSingleton\ThreadSafeSingleton\bin\Debug\ThreadSafeSingleton.exe.config
+C:\Users\92060001\Documents\Game Development\C# Basics\ThreadSafeSingleton\ThreadSafeSingleton\bin\Debug\ThreadSafeSingleton.exe
+C:\Users\92060001\Documents\Game Development\C# Basics\ThreadSafeSingleton\ThreadSafeSingleton\bin\Debug\ThreadSafeSingleton.pdb
+C:\Users\92060001\Documents\Game Development\C# Basics\ThreadSafeSingleton\ThreadSafeSingleton\obj\Debug\ThreadSafeSingleton.csprojResolveAssemblyReference.cache
+C:\Users\92060001\Documents\Game Development\C# Basics\ThreadSafeSingleton\ThreadSafeSingleton\obj\Debug\ThreadSafeSingleton.exe
+C:\Users\92060001\Documents\Game Development\C# Basics\ThreadSafeSingleton\ThreadSafeSingleton\obj\Debug\ThreadSafeSingleton.pdb
