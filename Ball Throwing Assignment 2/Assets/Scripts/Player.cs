@@ -1,9 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : Singleton 
 {
     public GameObject BallPrefab;
     public Vector3 BallOffset = new Vector3(0.5f, 0.5f, 0.5f); // offset from camera to create balls when throwing
@@ -12,7 +9,8 @@ public class Player : MonoBehaviour
     private int score;
 
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
         score = 0;
 
     }
@@ -37,6 +35,7 @@ public class Player : MonoBehaviour
 
     public void IncreaseScore(int scoreChange)
     {
-        score += scoreChange;        
-    }    
+        score += scoreChange;
+    }
 }
+

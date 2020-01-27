@@ -1,29 +1,29 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class UpdateUi : MonoBehaviour{
+public class UpdateUi : Singleton
+{
 
     public Text ScoreText;
     public static int ScoreDisplay = 0;
     private Player playerScript;
 
-	// Use this for initialization
-    void Start () 
+    // Use this for initialization
+    void Start()
     {
         SetScore(0);
-	}
+    }
 
     void Awake()
     {
         playerScript = GetComponent<Player>();
     }
-	
-	// Update is called once per frame
-	void Update () {
 
-	}
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
 
     public void SetScore(int prScoreToAdd)
     {
@@ -33,12 +33,13 @@ public class UpdateUi : MonoBehaviour{
             //ScoreDisplay = NewScore.Score;
             ScoreDisplay = playerScript.Score;
         }
-        catch (System.Exception)
+        catch (System.Exception e)
         {
-            Debug.Log("This New Score isn't working");
+            Debug.Log(e.Message + "This New Score isn't working");
         }
-            string DisplayScore = ("Score: " + ScoreDisplay);
-            ScoreText.GetComponent<Text>().text = DisplayScore;
+        string DisplayScore = ("Score: " + ScoreDisplay);
+        ScoreText.GetComponent<Text>().text = DisplayScore;
+        ScoreText.text = Singleton.Instance.Score.ToString();
 
     }
 }
