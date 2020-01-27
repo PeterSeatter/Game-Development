@@ -4,3 +4,9 @@ C:\Users\92060001\Documents\Game Development\C# Basics\Weapons\Weapons\bin\Debug
 C:\Users\92060001\Documents\Game Development\C# Basics\Weapons\Weapons\obj\Debug\Weapons.csprojResolveAssemblyReference.cache
 C:\Users\92060001\Documents\Game Development\C# Basics\Weapons\Weapons\obj\Debug\Weapons.exe
 C:\Users\92060001\Documents\Game Development\C# Basics\Weapons\Weapons\obj\Debug\Weapons.pdb
+E:\Programming\Game-Development\Weapons\Weapons\bin\Debug\Weapons.exe.config
+E:\Programming\Game-Development\Weapons\Weapons\bin\Debug\Weapons.exe
+E:\Programming\Game-Development\Weapons\Weapons\bin\Debug\Weapons.pdb
+E:\Programming\Game-Development\Weapons\Weapons\obj\Debug\Weapons.csprojAssemblyReference.cache
+E:\Programming\Game-Development\Weapons\Weapons\obj\Debug\Weapons.exe
+E:\Programming\Game-Development\Weapons\Weapons\obj\Debug\Weapons.pdb

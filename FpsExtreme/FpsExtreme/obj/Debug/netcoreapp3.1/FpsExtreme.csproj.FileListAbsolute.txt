@@ -1,0 +1,11 @@
+E:\Programming\Game-Development\FpsExtreme\FpsExtreme\obj\Debug\netcoreapp3.1\FpsExtreme.csprojAssemblyReference.cache
+E:\Programming\Game-Development\FpsExtreme\FpsExtreme\obj\Debug\netcoreapp3.1\FpsExtreme.AssemblyInfoInputs.cache
+E:\Programming\Game-Development\FpsExtreme\FpsExtreme\obj\Debug\netcoreapp3.1\FpsExtreme.AssemblyInfo.cs
+E:\Programming\Game-Development\FpsExtreme\FpsExtreme\bin\Debug\netcoreapp3.1\FpsExtreme.exe
+E:\Programming\Game-Development\FpsExtreme\FpsExtreme\bin\Debug\netcoreapp3.1\FpsExtreme.deps.json
+E:\Programming\Game-Development\FpsExtreme\FpsExtreme\bin\Debug\netcoreapp3.1\FpsExtreme.runtimeconfig.json
+E:\Programming\Game-Development\FpsExtreme\FpsExtreme\bin\Debug\netcoreapp3.1\FpsExtreme.runtimeconfig.dev.json
+E:\Programming\Game-Development\FpsExtreme\FpsExtreme\bin\Debug\netcoreapp3.1\FpsExtreme.dll
+E:\Programming\Game-Development\FpsExtreme\FpsExtreme\bin\Debug\netcoreapp3.1\FpsExtreme.pdb
+E:\Programming\Game-Development\FpsExtreme\FpsExtreme\obj\Debug\netcoreapp3.1\FpsExtreme.dll
+E:\Programming\Game-Development\FpsExtreme\FpsExtreme\obj\Debug\netcoreapp3.1\FpsExtreme.pdb
