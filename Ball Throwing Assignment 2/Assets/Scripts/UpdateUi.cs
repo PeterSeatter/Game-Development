@@ -19,17 +19,16 @@ public class UpdateUi : Singleton<UpdateUi>
     void Update()
     {
         SetScore(0);
-        SetLevel(0);
+        //SetLevel(0);
     }
 
     public void SetScore(int prScoreToAdd)
     {
         try
         {
-            ScoreDisplay = Player.Instance.Score;
-            ScoreDisplay = Player.Instance.Score;
-            string DisplayScore = ("Score: " + ScoreDisplay);
-            ScoreText.GetComponent<Text>().text = DisplayScore;
+            //ScoreDisplay = Player.Instance.Score;
+            //string DisplayScore = ("Score: " + ScoreDisplay);
+            //ScoreText.GetComponent<Text>().text = DisplayScore;
             ScoreText.text = Player.Instance.Score.ToString();
         }
         catch (System.Exception e)
@@ -38,19 +37,27 @@ public class UpdateUi : Singleton<UpdateUi>
         }
     }
 
-    public void SetLevel(int prLevelToAdd)
-    {
-        try
-        {
-            LevelDisplay = Player.Instance.Level;
-            string Displaylevel = ("Score: " + LevelDisplay);
-            LevelText.GetComponent<Text>().text = Displaylevel;
-            LevelText.text = Player.Instance.Level.ToString();
-        }
-        catch (System.Exception e)
-        {
-            Debug.Log(e.Message + "This New Level isn't working");
-        }
+    //public void SetLevel(int prLevelToAdd)
+    //{
+    //    try
+    //    {
+    //        LevelDisplay = Player.Instance.Level;
+    //        string Displaylevel = ("Level: " + LevelDisplay);
+    //        LevelText.GetComponent<Text>().text = Displaylevel;
+    //        LevelText.text = Player.Instance.Level.ToString();
+    //    }
+    //    catch (System.Exception e)
+    //    {
+    //        Debug.Log(e.Message + " This New Level isn't working");
+    //    }
 
-    }
+    //}
 }
+
+//if((ScoreDisplay % 1000) == 0 && ScoreDisplay != 0)
+//{
+//    LevelDisplay = Player.Instance.Level;
+//    string Displaylevel = ("Level: " + LevelDisplay);
+//    //LevelText.GetComponent<Text>().text = Displaylevel;
+//    LevelText.text = Player.Instance.Level.ToString();
+//}
