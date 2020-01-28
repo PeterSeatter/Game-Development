@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameManager : Singleton {
+public class GameManager : Singleton<GameManager> 
+{
 
     private float _timePassed;
 
