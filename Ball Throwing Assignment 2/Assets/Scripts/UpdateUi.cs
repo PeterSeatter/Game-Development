@@ -34,7 +34,6 @@ public class UpdateUi : Singleton<UpdateUi>
     {
         try
         {
-            //ScoreDisplay = Player.Instance.Score;
             ScoreDisplay = player.Score;
             string DisplayScore = ("Score: " + ScoreDisplay);
             //ScoreText.GetComponent<Text>().text = DisplayScore;
