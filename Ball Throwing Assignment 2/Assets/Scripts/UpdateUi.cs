@@ -8,11 +8,19 @@ public class UpdateUi : Singleton<UpdateUi>
     public static int ScoreDisplay = 0;
     public Text LevelText;
     public static int LevelDisplay = 0;
+    public Player player = Player.Instance;
 
     // Use this for initialization
     void Start()
     {
-
+        try
+        {
+            
+        }
+        catch (System.Exception e)
+        {
+            Debug.Log(e + "Error in the Instance of player");
+        }  
     }
 
     // Update is called once per frame
@@ -27,9 +35,10 @@ public class UpdateUi : Singleton<UpdateUi>
         try
         {
             //ScoreDisplay = Player.Instance.Score;
-            //string DisplayScore = ("Score: " + ScoreDisplay);
+            ScoreDisplay = player.Score;
+            string DisplayScore = ("Score: " + ScoreDisplay);
             //ScoreText.GetComponent<Text>().text = DisplayScore;
-            ScoreText.text = Player.Instance.Score.ToString();
+            //ScoreText.text = Player.Instance.Score.ToString();
         }
         catch (System.Exception e)
         {

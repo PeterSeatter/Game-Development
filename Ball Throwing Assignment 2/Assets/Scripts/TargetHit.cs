@@ -7,6 +7,7 @@ public class TargetHit : MonoBehaviour
     public int ScoreIncrease = 1;
 
 
+
     // Use this for initialization
     void Start () {
 
