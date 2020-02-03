@@ -9,15 +9,17 @@ public class TargetHit : MonoBehaviour
 
 
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
 
     }
-	
-	// Update is called once per frame
-	void OnTriggerEnter(Collider other) {
+
+    // Update is called once per frame
+    void OnTriggerEnter(Collider other)
+    {
         //Debug.Log("OnTriggerEnter");
         Player player = GameObject.Find("Main Camera").GetComponent<Player>();
         player.IncreaseScore(ScoreIncrease);
         GameObject.Destroy(other.gameObject);
-	}
+    }
 }

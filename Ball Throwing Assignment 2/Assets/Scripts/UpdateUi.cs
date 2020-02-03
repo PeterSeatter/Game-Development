@@ -1,43 +1,37 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class UpdateUi : Singleton<UpdateUi>
 {
 
     public Text ScoreText;
-    public static int ScoreDisplay = 0;
+    public static int ScoreDisplay;
     public Text LevelText;
-    public static int LevelDisplay = 0;
-    public Player player = Player.Instance;
+    public static int LevelDisplay;
 
     // Use this for initialization
     void Start()
     {
-        try
-        {
-            
-        }
-        catch (System.Exception e)
-        {
-            Debug.Log(e + "Error in the Instance of player");
-        }  
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        SetScore(0);
-        //SetLevel(0);
+        SetScore(0);    
+        SetLevel(0);
     }
 
-    public void SetScore(int prScoreToAdd)
+    public void SetScore(int prSetScore)
     {
         try
         {
-            ScoreDisplay = player.Score;
+            ScoreDisplay = Player.Instance.Score;
             string DisplayScore = ("Score: " + ScoreDisplay);
-            //ScoreText.GetComponent<Text>().text = DisplayScore;
-            //ScoreText.text = Player.Instance.Score.ToString();
+            ScoreText.GetComponent<Text>().text = DisplayScore;
+            ScoreText.text = "Score: " + Player.Instance.Score.ToString();
         }
         catch (System.Exception e)
         {
@@ -45,27 +39,29 @@ public class UpdateUi : Singleton<UpdateUi>
         }
     }
 
-    //public void SetLevel(int prLevelToAdd)
-    //{
-    //    try
-    //    {
-    //        LevelDisplay = Player.Instance.Level;
-    //        string Displaylevel = ("Level: " + LevelDisplay);
-    //        LevelText.GetComponent<Text>().text = Displaylevel;
-    //        LevelText.text = Player.Instance.Level.ToString();
-    //    }
-    //    catch (System.Exception e)
-    //    {
-    //        Debug.Log(e.Message + " This New Level isn't working");
-    //    }
+    public void SetLevel(int prLevelToAdd)
+    {
+        try
+        {
+            //LevelDisplay = Player.Instance.Level;
+            //string Displaylevel = ("Level: " + LevelDisplay);
+            //LevelText.GetComponent<Text>().text = Displaylevel;
+            //LevelText.text = Player.Instance.Level.ToString();
+            if ((ScoreDisplay % 1000) == 0 && ScoreDisplay != 0)
+            {
+                LevelDisplay = Player.Instance.Level;
+                string Displaylevel = ("Level: " + LevelDisplay);
+                LevelText.GetComponent<Text>().text = Displaylevel;
+                LevelText.text = "Level: " + Player.Instance.Level.ToString();
+            }
+        }
+        catch (System.Exception e)
+        {
+            Debug.Log(e.Message + " This New Level isn't working");
+        }
 
-    //}
+
+
+    }
 }
 
-//if((ScoreDisplay % 1000) == 0 && ScoreDisplay != 0)
-//{
-//    LevelDisplay = Player.Instance.Level;
-//    string Displaylevel = ("Level: " + LevelDisplay);
-//    //LevelText.GetComponent<Text>().text = Displaylevel;
-//    LevelText.text = Player.Instance.Level.ToString();
-//}

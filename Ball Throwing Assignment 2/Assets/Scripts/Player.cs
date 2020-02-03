@@ -19,7 +19,6 @@ public class Player : Singleton<Player>
     {
         score = 0;
         level = 0;
-
     }
 
     void FixedUpdate()
@@ -47,14 +46,13 @@ public class Player : Singleton<Player>
 
     public void IncreaseLevel()
     {
-        while(running == true)
+        while (running == true)
         {
             if (score % levelIncreaseNum == 0)
             {
                 level++;
             }
         }
-     
     }
 }
 
