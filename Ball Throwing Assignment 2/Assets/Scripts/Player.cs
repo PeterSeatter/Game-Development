@@ -12,7 +12,6 @@ public class Player : Singleton<Player>
     private int score;
     private int level;
     private int levelIncreaseNum = 1000;
-    private bool running = true;
 
     // Use this for initialization
     void Start()
@@ -46,13 +45,9 @@ public class Player : Singleton<Player>
 
     public void IncreaseLevel()
     {
-        while (running == true)
+        if (score % levelIncreaseNum == 0)
         {
-            if (score % levelIncreaseNum == 0)
-            {
-                level++;
-            }
+            level++;
         }
     }
 }
-

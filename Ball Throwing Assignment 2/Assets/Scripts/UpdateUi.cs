@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class UpdateUi : Singleton<UpdateUi>
 {
-
     public Text ScoreText;
     public static int ScoreDisplay;
     public Text LevelText;
@@ -43,25 +42,27 @@ public class UpdateUi : Singleton<UpdateUi>
     {
         try
         {
-            //LevelDisplay = Player.Instance.Level;
-            //string Displaylevel = ("Level: " + LevelDisplay);
-            //LevelText.GetComponent<Text>().text = Displaylevel;
-            //LevelText.text = Player.Instance.Level.ToString();
-            if ((ScoreDisplay % 1000) == 0 && ScoreDisplay != 0)
+            LevelDisplay = Player.Instance.Level;
+            string Displaylevel = ("Level: " + LevelDisplay);
+            LevelText.GetComponent<Text>().text = Displaylevel;
+            LevelText.text = "Level: " + Player.Instance.Level.ToString();
+            try
             {
-                LevelDisplay = Player.Instance.Level;
-                string Displaylevel = ("Level: " + LevelDisplay);
-                LevelText.GetComponent<Text>().text = Displaylevel;
-                LevelText.text = "Level: " + Player.Instance.Level.ToString();
+                if ((ScoreDisplay % 1000) == 0 && ScoreDisplay != 0)
+                {
+                    Player.Instance.IncreaseLevel();
+                }
             }
+            catch (System.Exception d)
+            {
+
+                Debug.Log(d.Message + " This Level count isn't working");
+            }
+ 
         }
         catch (System.Exception e)
         {
             Debug.Log(e.Message + " This New Level isn't working");
         }
-
-
-
     }
 }
-
