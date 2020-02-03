@@ -1,18 +1,24 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-public class Player : Singleton 
+public class Player : Singleton<Player>
 {
     public GameObject BallPrefab;
     public Vector3 BallOffset = new Vector3(0.5f, 0.5f, 0.5f); // offset from camera to create balls when throwing
     public int Score { get { return score; } }
+    public int Level { get { return level; } }
 
     private int score;
+    private int level;
+    private int levelIncreaseNum = 1000;
+    private bool running = true;
 
     // Use this for initialization
     void Start()
     {
         score = 0;
-
+        level = 0;
     }
 
     void FixedUpdate()
@@ -36,6 +42,17 @@ public class Player : Singleton
     public void IncreaseScore(int scoreChange)
     {
         score += scoreChange;
+    }
+
+    public void IncreaseLevel()
+    {
+        while (running == true)
+        {
+            if (score % levelIncreaseNum == 0)
+            {
+                level++;
+            }
+        }
     }
 }
 
