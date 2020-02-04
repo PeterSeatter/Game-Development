@@ -6,13 +6,12 @@ public class TargetHit : MonoBehaviour
 {
     public int ScoreIncrease = 1;
 
-
-
     // Use this for initialization
     void Start()
     {
-
+        
     }
+
 
     // Update is called once per frame
     void OnTriggerEnter(Collider other)
