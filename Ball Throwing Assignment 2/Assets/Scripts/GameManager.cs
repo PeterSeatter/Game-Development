@@ -31,5 +31,7 @@ public class GameManager : Singleton<GameManager>
             TimePassed = 0; // maxTimeSeconds;
             SceneManager.LoadScene(0);
         }
+
     }
+
 }
